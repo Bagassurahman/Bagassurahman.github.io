@@ -1,0 +1,177 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #010101;
+    background-size: cover;
+}
+
+/* NAVIGASI */
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-nav .active{
+    font-weight: 900;
+}
+
+nav .navbar-collapse .nav-item {
+    margin-right: 40px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: grey;
+}
+
+.btn-dark {
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    border: none;
+    height: 41px;
+    width: 120px;
+}
+
+@media (max-width: 576px) {
+    .navbar{
+        margin-bottom: 80px;
+        color: white;
+    }
+    .navbar-nav .nav-item .nav-link{
+        margin-left: 15px;
+    }
+    .btn-atas{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+}
+/* JUMBOTRON */
+.jumbotron h3 {
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+}
+
+.jumbotron h2 {
+    font-size: 48px;
+    color: white;
+}
+
+.jumbotron {
+    background: url(../img/jumbotron/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 730px;
+    padding: 150px 0px 246px 0px;
+    margin-top: -75px;
+}
+
+.btn-outline-dark {
+    border-radius: 15px;
+    font-weight: bold;
+    border-width: 2px;
+    height: 41px;
+    width: 120px;
+}
+
+/* info panel */
+.info-panel {
+    background-color: #0B1020;
+    box-shadow: 2px 4px 25px rgba(47, 47, 47, 0.25);
+    border-radius: 20px;
+    padding: 47px 7px 47px 7px;
+    margin-top: -130px;
+}
+@media (max-width: 576px) {
+    .info-panel .body{
+        margin-left: 40px;
+    }
+    .info-panel .body .dua{
+        margin-left: 6px;
+    }
+    .info-panel .body .tiga{
+        margin-left: 12px;
+    }
+    .info-panel .body .empat{
+        margin-left: -10px;
+    }
+}
+
+/* ABOUT */
+.About h3 {
+    color: white;
+}
+
+.About p {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200px;
+}
+
+/* SERVICE */
+.service {
+    padding: 101px 0 212px 0;
+}
+
+.service h4 {
+    font-size: 20px;
+    font-weight: 137px;
+}
+
+.service .content .title{
+    font-size: 28px;
+}
+
+.service .dropdown .title {
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFF500;
+    text-decoration: none;
+}
+
+.service .dropdown .title:hover{
+    color: rgba(252, 247, 104, 0.884);
+}
+
+.service .dropdown .dropdown-menu{
+    background-color: #FFF500;
+}
+
+.service p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.service .card .opt{
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.service .card {
+    background: #0A0F1D;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+.service .card-body {
+    padding: 17px 32px 22px 32px;
+}
+
+
+.service .card:hover {
+    background: #070C18;
+}
+
+@media (max-width:576px){
+    .service .card .opt{
+        margin-left: 100px;
+    }
+}
+
+/* Footer */
+footer .left a{
+    text-decoration: none;
+}
